@@ -10,6 +10,7 @@ type NoSkeletonProps = {
   imageUrl: string
   name: string
   address: string
+  placeId: number
 }
 
 function PlaceBox(props: SkeletonProps): JSX.Element
